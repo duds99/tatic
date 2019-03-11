@@ -15,7 +15,7 @@ descompactado para a leitura.
 Compilar e executar o projeto passo a passo
 
 1 - git clone https://github.com/duds99/tatic.git
-2 - Pelo terminal navegue pelo terminal com comando cd até a pasta tatic/src/main/java
+2 - Pelo terminal navegue com comando cd até a pasta tatic/src/main/java
 3 - Compile o projeto com o comando: javac tatictest/Main.java
 4 - Para executar o programa dê o comando: java tatictest/Main
 
@@ -30,7 +30,8 @@ sair
 
 Para que o programa funcione, o primeiro comando que deve ser dado é o armazenador, pois o buscador
 depende dele para o funcionamento, caso tente usar o comando buscador antes, o programa ira dizer
-que primeiro é necessário usar o armazenador (caso ele nunca tenha realizado essa função anteriormente).
+que primeiro é necessário usar o armazenador (caso ele nunca tenha realizado essa função em outras
+instancias).
 
 Exemplos de execução armazenador:
 
