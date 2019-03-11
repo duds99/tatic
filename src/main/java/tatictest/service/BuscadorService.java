@@ -48,12 +48,12 @@ public class BuscadorService {
 								}
 								return false;
 							}).collect(Collectors.toList());
-							
-							respList.forEach(System.out::println);
-							
+
+							respList.forEach(evento -> System.out.println(evento.split("\n")[0]));
+
 							bool = true;
-							
-							if(lista.isEmpty()) {
+
+							if (lista.isEmpty()) {
 								break;
 							}
 						}
