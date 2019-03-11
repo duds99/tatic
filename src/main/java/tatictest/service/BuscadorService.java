@@ -42,7 +42,7 @@ public class BuscadorService {
 
 							respList = respList.stream().filter(evento -> {
 								String[] aux = evento.split(SEPARATOR);
-								if (lista.contains(aux[1])) {
+								if (aux.length == 3 && lista.contains(aux[1])) {
 									lista.remove(aux[1]);
 									return true;
 								}

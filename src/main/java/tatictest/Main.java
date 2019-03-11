@@ -13,7 +13,7 @@ public class Main {
 
 	public static final String PATH = "arquivos/";
 	public static final String SEPARATOR = ";";
-	public static final String QUEBRA = "\r\n";
+	public static final String QUEBRA = "\n";
 	public static final String ENDS = ".zip";
 
 	private static final String ARMAZENADOR = "armazenador";

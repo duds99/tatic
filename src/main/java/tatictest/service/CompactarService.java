@@ -17,7 +17,7 @@ public class CompactarService {
 	private CompactarService() {
 	}
 
-	private static final int BUFFER = 20 * 41;
+	private static final int BUFFER = 200 * 41;
 
 	public static void compactar() {
 		File file = new File(PATH);

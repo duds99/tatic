@@ -1,10 +1,10 @@
 package tatictest.service;
 
 import static tatictest.Main.PATH;
-import static tatictest.Main.QUEBRA;
 import static tatictest.Main.SEPARATOR;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -48,11 +48,17 @@ public class ArmazenadorService {
 
 			if (file.exists()) {
 				FileWriter arquivo = new FileWriter(file, true);
-				arquivo.write(QUEBRA + linha[0] + SEPARATOR + linha[1] + SEPARATOR + linha[2]);
+				BufferedWriter conexao = new BufferedWriter(arquivo);
+				
+				conexao.newLine();
+				conexao.write(linha[0] + SEPARATOR + linha[1] + SEPARATOR + linha[2]);
+				
+				conexao.close();
 				arquivo.close();
 			} else {
 				FileWriter arquivo = new FileWriter(file);
 				arquivo.write(linha[0] + SEPARATOR + linha[1] + SEPARATOR + linha[2]);
+				
 				arquivo.close();
 			}
 		} catch (Exception e) {
