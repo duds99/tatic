@@ -1,7 +1,7 @@
 # tatic
 
---------------------------------------------------------------------------------------
-A ideia:
+A ideia
+----------------------------------------------------------------------------------------------------
 
 A ideia usada para deixar o sistema melhor foi processar o arquivo de entrada e dividi-lo em varios
 arquivos pequenos separando-os por yyyyMMddhh e após a separação foi feito a compactação de todos para
@@ -11,8 +11,8 @@ Como os arquivos foram criados com suas respectivas dadas, ficou fácil encontra
 o programa buscador sabe exatamente quais arquivos se deve abrir, ao encontrar, ele é
 descompactado para a respectiva leitura.
 
---------------------------------------------------------------------------------------
 Compilar e executar o projeto passo a passo
+----------------------------------------------------------------------------------------------------
 
 1 - git clone https://github.com/duds99/tatic.git
 
@@ -22,17 +22,19 @@ Compilar e executar o projeto passo a passo
 
 4 - Para executar o programa dê o comando: java tatictest/Main
 
-----------------------------------------------------------------------------------------------------
-
-Execução
 
 Comandos existentes:
+----------------------------------------------------------------------------------------------------
+Execução
 
 armazenador
 
 buscador
 
 sair
+
+Execução
+----------------------------------------------------------------------------------------------------
 
 Para que o programa funcione, o primeiro comando que deve ser dado é o armazenador, pois o buscador
 depende dele para o funcionamento, caso tente usar o comando buscador antes, o programa ira dizer
@@ -55,9 +57,8 @@ Com filtro de id:
 
 buscador 20170206175709744 20170219124557428 BFD99205 B5079387 0A23AFD0
 
-----------------------------------------------------------------------------------------------------
-
 Rodar tests unitários
+----------------------------------------------------------------------------------------------------
 
 1 - git clone https://github.com/duds99/tatic.git
 
