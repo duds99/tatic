@@ -72,7 +72,7 @@ public class BuscadorServiceTest {
         
         CompactarService.compactar();
         
-        List<String> lista = new ArrayList<>();
+        List<String> lista = new ArrayList<String>();
         lista.add("0A23C8B5");
         
 		Boolean resp = buscadorService.buscar("19910206185709743", "19930206185709744", lista);
@@ -88,7 +88,7 @@ public class BuscadorServiceTest {
         
         CompactarService.compactar();
         
-        List<String> lista = new ArrayList<>();
+        List<String> lista = new ArrayList<String>();
         lista.add("0A23CFD5");
         
 		Boolean resp = buscadorService.buscar("19910206185709743", "19930206185709744", lista);
